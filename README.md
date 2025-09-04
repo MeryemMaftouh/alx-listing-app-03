@@ -54,9 +54,9 @@ alx-listing-app/
 - cd alx-listing-app
 
 ### 2. Install dependencies
-npm install
+- npm install
 
 ### 3. Run the development server
-npm run dev
+- npm run dev
 
-Open http://localhost:3000 in your browser to view the app.
+- Open http://localhost:3000 in your browser to view the app.
