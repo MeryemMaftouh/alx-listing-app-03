@@ -50,8 +50,8 @@ alx-listing-app/
 ## 🛠️ Getting Started
 
 ### 1. Clone the repository
-git clone https://github.com/MeryemMaftouh/alx-listing-app.git.
-cd alx-listing-app
+- git clone https://github.com/MeryemMaftouh/alx-listing-app.git.
+- cd alx-listing-app
 
 ### 2. Install dependencies
 npm install
