@@ -14,31 +14,33 @@ This project is built with **Next.js**, **TypeScript**, **TailwindCSS**, and **E
 
 ## 📂 Project Structure
 
+```bash
 alx-listing-app/
-├── pages/ # Next.js pages (routes)
-│ └── index.tsx # Home page displaying listings
+├── pages/                   # Next.js pages (routes)
+│   └── index.tsx            # Home page displaying listings
 │
-├── components/ # Reusable components
-│ └── common/ # Shared UI building blocks
-│ ├── Card.tsx # Property card component
-│ └── Button.tsx # Button component
+├── components/              # Reusable components
+│   └── common/              # Shared UI building blocks
+│       ├── Card.tsx         # Property card component
+│       └── Button.tsx       # Button component
 │
-├── interfaces/ # TypeScript interfaces
-│ └── index.ts # CardProps, ButtonProps, and future types
+├── interfaces/              # TypeScript interfaces
+│   └── index.ts             # CardProps, ButtonProps, and future types
 │
-├── constants/ # Project-wide constants
-│ └── index.ts # Reusable strings, config, or URLs
+├── constants/               # Project-wide constants
+│   └── index.ts             # Reusable strings, config, or URLs
 │
-├── public/ # Publicly served assets
-│ └── assets/ # Images, icons, and other static files
-│ └── placeholder.jpg
+├── public/                  # Publicly served assets
+│   └── assets/              # Images, icons, and other static files
+│       └── placeholder.jpg
 │
-├── styles/ # Global styles
-│ └── globals.css # TailwindCSS imports
+├── styles/                  # Global styles
+│   └── globals.css          # TailwindCSS imports
 │
-├── tailwind.config.js # TailwindCSS configuration
-├── postcss.config.mjs # PostCSS configuration
-└── README.md # Project documentation
+├── tailwind.config.js       # TailwindCSS configuration
+├── postcss.config.mjs       # PostCSS configuration
+└── README.md                # Project documentation
+```
 
 - **`components/`** → UI building blocks reused across pages.  
 - **`interfaces/`** → Centralized TypeScript type definitions for props and data.  
