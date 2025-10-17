@@ -20,7 +20,7 @@ export interface PropertyProps {
   price: number;
   offers: Offers;
   image: string;
-  discount: string; // "" or "20"
+  discount: string; 
 }
 
 export type PillProps = {
@@ -30,3 +30,14 @@ export type PillProps = {
   className?: string;
 };
 
+
+export interface BookingDetails {
+  propertyName: string;
+  price: number;
+  bookingFee: number;
+  totalNights: number;
+  startDate: string;
+  propertyImage?: string;
+  rating?: number;
+  reviewCount?: number;
+}
